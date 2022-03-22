@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Drunk Choose</title>
+    <link rel="stylesheet" href="h&lstyle.css">
+    <link rel="stylesheet" href="reset.css">
+    <script src="high&low.js"></script>
+  </head>
+  <body>
+      <header>
+        <div class="title">
+            <h1>Drunk Choose</h1>
+        </div>
+        <div class="links"> 
+            <button onclick="history.back()">戻る</button>
+        </div>
+      </header>
+
+      <div class="field">
+        <div class="items">
+
+          <div class="highbutton"> 
+            <button>HIGHER</button>
+          </div>
+
+          <div class="playercard">
+            <input type="image" src="tranp_ura.png" style="border: double;" height="200" width="150"/>
+          </div>
+
+          <div class="dekki">
+            <input type="image" src="tranp_ura.png" style="border: double;" height="200" width="150"/>
+          </div>
+          
+          <div class="cpucard">
+            <input type="image" src="tranp_ura.png" style="border: double;" height="200" width="150"/>
+          </div>
+
+          <div class="openbutton1">
+            <button onclick="buttonClick()">OPEN</button>
+          </div>
+
+
+          <div class="lowbutton">
+            <button>LOWER</button>
+          </div>
+
+          <div class="openbutton2">
+            <button>OPEN</button>
+          </div>
+
+        </div>
+      
+      </div>
+
+      <footer>
+        <div class="mychara">
+          <img src="mychara.png" alt="">
+        </div>
+
+        <div class="mycharapro">
+          <h3>NAME:you</h3>
+          <div class="wincount">
+            <ul>
+              <li><div class="box"></div></li>
+              <li><div class="box"></div></li>
+              <li><div class="box"></div></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="vslogo">
+          <img src="vs.png" alt="">
+        </div>
+
+        <div class="enemychara">
+          <img src="enemy.png" alt="">
+        </div>
+
+        <div class="enemypro">
+          <h3>NAME:CPU1</h3>
+            <div class="wincount">
+              <ul>
+                <li><div class="box"></div></li>
+                <li><div class="box"></div></li>
+                <li><div class="box"></div></li>
+              </ul>
+            </div>
+          <div class="wincount">
+          </div>
+        </div>
+
+      </footer>
+    
+    
+  </body>
+</html>

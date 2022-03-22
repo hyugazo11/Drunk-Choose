@@ -1,0 +1,128 @@
+
+body{
+   width:1000px;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:100px;
+    background-color: black;
+    color:chartreuse;
+    border:10px solid chartreuse;
+    border-radius:10px;
+    display:flex;
+}
+
+.links {
+    float: left;
+    padding:30px;
+}
+
+.title {
+    float: left;
+    padding:30px;
+}
+
+h1  {
+    font-size:32px;
+}
+
+.field {
+    width:100%;
+    height:800px;
+    background-color: green;
+    border:10px solid brown;
+    position:relative;
+    border-radius: 10px;
+}
+
+.items {
+    display: grid;
+    place-items: center;
+    grid-gap:100px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 100px;
+}
+
+.items button {
+  width: 100px;
+  height: 100px;
+  background: transparent;
+  border-radius: 50%;
+  color:aliceblue;
+  border-width: 8px;
+  border-style: double;
+  border-color:aliceblue;
+  box-shadow: 0 7px gray;
+}
+
+.items button:active {
+    box-shadow:none;
+    position: relative;
+    top: 5px;
+}
+
+.highbutton {
+
+  grid-column-start: 1;
+  grid-column-end: 4;
+  
+  margin:0 auto;
+    
+}
+
+
+
+footer {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-auto-rows: minmax(100px, 150px);
+    grid-auto-columns:20%;
+    width:100%;
+    background-color:black;
+    border:10px solid chartreuse;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+footer img {
+    height:100%;
+    width:100%;
+}
+
+.mycharapro, .enemypro {
+    color:chartreuse;
+    border:5px solid chartreuse;
+    border-radius: 10px;
+    margin:10px 10px; 
+}
+
+.wincount ul {
+    width:100%;
+    padding: 0 20px;
+    display:flex;
+    padding-inline-start: 0px;
+    justify-content: center; 
+    gap:10px;
+    list-style: none;
+}
+
+.vslogo {
+    padding:0 20px;
+}
+
+h3 {
+    margin:0;
+    padding:20px;
+}
+
+
+.box {
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    border-color: chartreuse;
+    border-style: groove; 
+}
